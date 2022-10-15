@@ -1,3 +1,15 @@
 site_name: 1ext.ru - Фреймворк для Расширений 1С
+site_url: https://1ext.ru/
+site_description: 1ext.ru - Фреймворк для Расширений 1С.
+site_author: Андрей Кайгородов
+
 theme:
   name: material
+  language: ru
+  logo: img/logo.png
+  favicon: img/favicon.png
+
+markdown_extensions:
+    - toc:
+        permalink: "#"
+    - admonition        
