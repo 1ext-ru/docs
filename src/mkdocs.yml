@@ -1,15 +1,46 @@
 site_name: 1ext.ru - Фреймворк для Расширений 1С
 site_url: https://1ext.ru/
-site_description: 1ext.ru - Фреймворк для Расширений 1С.
-site_author: Андрей Кайгородов
+site_description: 1ext.ru - Фреймворк для Расширений 1С
+site_author: Андрей Кайгородов aka mszsuz
 
 theme:
   name: material
   language: ru
   logo: img/logo.png
   favicon: img/favicon.png
+  features:
+    - navigation.expand
+    - navigation.top 
+    - search.highlight
+    - search.share
+  highlightjs: true
+  hljs_languages:
+    - 1c
+  palette:
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+
+plugins:
+  - search:
+      lang: ru
 
 markdown_extensions:
     - toc:
         permalink: "#"
-    - admonition        
+    - admonition
+    - pymdownx.details   
+    - pymdownx.highlight:
+          anchor_linenums: true
+    - pymdownx.inlinehilite
+    - pymdownx.snippets
+    - pymdownx.superfences     
