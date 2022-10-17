@@ -8,6 +8,8 @@ theme:
   language: ru
   logo: img/logo.png
   favicon: img/favicon.png
+  analytics:
+    gtag: G-8WV51QHXX1
   features:
     - navigation.expand
     - navigation.top 
@@ -35,12 +37,13 @@ plugins:
       lang: ru
 
 markdown_extensions:
-    - toc:
-        permalink: "#"
-    - admonition
-    - pymdownx.details   
-    - pymdownx.highlight:
-          anchor_linenums: true
-    - pymdownx.inlinehilite
-    - pymdownx.snippets
-    - pymdownx.superfences     
+  - toc:
+      permalink: "#"
+  - admonition
+  - pymdownx.details
+  - pymdownx.highlight:
+        anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  
