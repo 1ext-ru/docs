@@ -15,9 +15,6 @@ theme:
     - navigation.top 
     - search.highlight
     - search.share
-  highlightjs: true
-  hljs_languages:
-    - 1c
   palette:
     # Palette toggle for light mode
     - media: "(prefers-color-scheme: light)"
