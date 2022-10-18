@@ -35,6 +35,7 @@ theme:
 plugins:
   - search:
       lang: ru
+  - mkdocs-video      
 
 markdown_extensions:
   - toc:
