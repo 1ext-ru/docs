@@ -9,8 +9,6 @@ theme:
   language: ru
   logo: img/logo.png
   favicon: img/favicon.png
-  analytics:
-    gtag: G-8WV51QHXX1
   features:
     - navigation.expand
     - navigation.top 
@@ -46,3 +44,7 @@ markdown_extensions:
   - pymdownx.snippets
   - pymdownx.superfences
   
+extra:
+  analytics:
+    provider: google
+    property: G-8WV51QHXX1
