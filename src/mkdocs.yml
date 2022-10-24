@@ -2,7 +2,7 @@ site_name: 1ext.ru - Фреймворк для Расширений 1С
 site_url: https://1ext.ru/
 site_description: 1ext.ru - Фреймворк для Расширений 1С
 site_author: Андрей Кайгородов aka mszsuz
-repo_url: https://github.com/1ext-ru
+# repo_url: https://1ext-ru.github.io/docs/src/
 
 theme:
   name: material
@@ -48,3 +48,4 @@ extra:
   analytics:
     provider: google
     property: G-8WV51QHXX1
+ 
